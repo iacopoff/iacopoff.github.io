@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://iacopoff.github.io/</id>
-  <title>Iacopo</title>
-  <updated>2023-03-05T12:37:34.764850+00:00</updated>
-  <link href="https://iacopoff.github.io/"/>
+  <id>https://iacopoff.github.io</id>
+  <title>Iacopo's notes</title>
+  <updated>2023-03-05T12:48:30.403746+00:00</updated>
+  <link href="https://iacopoff.github.io"/>
   <link href="https://iacopoff.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <subtitle>Open communities, open science, communication, and data.</subtitle>
