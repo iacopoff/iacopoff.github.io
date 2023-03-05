@@ -25,11 +25,11 @@ html_extra_path = []
 
 # HTML 
 
-
+templates_path = ["_templates"]
 html_theme = "pydata_sphinx_theme"
 
 html_theme_options = {
-    "search_bar_text": "Search this site...",
+    "search_bar_text": "Search ...",
     "analytics": {"google_analytics_id": "UA-88310237-1"},
     "icon_links": [
         {
@@ -48,15 +48,10 @@ html_theme_options = {
 
 html_title = "Iacopo Ferrario"
 html_sidebars = {
-    #"index": ["hello.html"],
-    #"about": ["hello.html"],
-    #"publications": ["hello.html"],
-    #"projects": ["hello.html"],
-    #"talks": ["hello.html"],
-    "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
-    #"notes/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
-}
+        "*": ["sidebar.html"],
+        }
 
+fontawesome_included = True
 
 
 # -- ABlog ---------------------------------------------------
