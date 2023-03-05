@@ -2,9 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://iacopoff.github.io/</id>
   <title>Iacopo</title>
-  <updated>2023-03-05T12:29:50.690745+00:00</updated>
+  <updated>2023-03-05T12:37:34.764850+00:00</updated>
   <link href="https://iacopoff.github.io/"/>
   <link href="https://iacopoff.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <subtitle>Open communities, open science, communication, and data.</subtitle>
+  <entry>
+    <id>https://iacopoff.github.io/blog/2023/test.html</id>
+    <title>Another article</title>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <content type="html">&lt;section id="another-article"&gt;
+
+&lt;section id="interesting"&gt;
+&lt;h2&gt;interesting&lt;/h2&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://iacopoff.github.io/blog/2023/test.html" rel="alternate"/>
+    <category term="test" label="test"/>
+    <published>2023-01-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://iacopoff.github.io/blog/2023/new.html</id>
+    <title>Title 1</title>
+    <updated>2023-02-12T00:00:00+00:00</updated>
+    <content type="html">&lt;section id="title-1"&gt;
+
+&lt;section id="sub"&gt;
+&lt;h2&gt;sub&lt;/h2&gt;
+&lt;p&gt;Bla bla&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://iacopoff.github.io/blog/2023/new.html" rel="alternate"/>
+    <summary>Bla bla</summary>
+    <category term="new" label="new"/>
+    <published>2023-02-12T00:00:00+00:00</published>
+  </entry>
 </feed>
