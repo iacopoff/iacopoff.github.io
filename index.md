@@ -2,11 +2,8 @@
 html_theme.sidebar_secondary.remove: true
 ---
 
-# Iacopo Ferrario
 
-
-
-## Notes
+# Notes
 
 ```{postlist}
 :date: "%Y-%m-%d"
@@ -17,7 +14,8 @@ html_theme.sidebar_secondary.remove: true
 ```{toctree}
 :maxdepth: 2
 :hidden:
-blog
+
+
 ```
 
 
