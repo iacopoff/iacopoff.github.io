@@ -70,6 +70,7 @@ for old, new in redirect_folders.items():
             oldpath = str(newpath).replace("blog/", "posts/", 1)
             # Skip pandoc because for some reason it's broken
             if "pandoc" not in str(newpath):
+                print("setting paths..", newpath)
                 rediraffe_redirects[oldpath] = str(newpath)
 
 
