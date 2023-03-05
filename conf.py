@@ -5,9 +5,9 @@ extensions = [
     "ablog",
     "sphinx_panels",
     "sphinx_design",
-    "sphinx.ext.intersphinx",
+    #"sphinx.ext.intersphinx",
     # "sphinxcontrib.bibtex",
-    "sphinxext.opengraph",
+    #"sphinxext.opengraph",
 ]
 
 exclude_patterns = [
@@ -46,17 +46,15 @@ html_theme_options = {
 }
 
 
-html_favicon = "_static/profile-color-circle-small.png"
 html_title = "Iacopo Ferrario"
-html_static_path = ["_static"]
 html_sidebars = {
     #"index": ["hello.html"],
     #"about": ["hello.html"],
     #"publications": ["hello.html"],
     #"projects": ["hello.html"],
     #"talks": ["hello.html"],
-    "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
-    "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
+    #"notes": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
+    #"notes/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
 }
 
 
