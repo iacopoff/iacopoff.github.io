@@ -5,7 +5,7 @@ extensions = [
     "ablog",
     "sphinx_panels",
     "sphinx_design",
-    #"sphinx.ext.intersphinx",
+    "sphinx.ext.intersphinx",
     # "sphinxcontrib.bibtex",
     #"sphinxext.opengraph",
 ]
@@ -53,7 +53,7 @@ html_sidebars = {
     #"publications": ["hello.html"],
     #"projects": ["hello.html"],
     #"talks": ["hello.html"],
-    #"notes": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
+    "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
     #"notes/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
 }
 
@@ -63,8 +63,8 @@ html_sidebars = {
 
 blog_baseurl = "https://iacopoff.github.io/"
 blog_title = "Iacopo"
-blog_path = "notes"
-blog_post_pattern = "notes/*/*"
+blog_path = "blog"
+blog_post_pattern = "blog/*/*"
 blog_feed_fulltext = True
 blog_feed_subtitle = "Open communities, open science, communication, and data."
 fontawesome_included = True
