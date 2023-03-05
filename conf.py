@@ -1,14 +1,13 @@
 
-html_theme = "pydata_sphinx_theme"
 
 extensions = [
     "myst_nb",
     "ablog",
     "sphinx_panels",
+    "sphinx_design",
     "sphinx.ext.intersphinx",
     # "sphinxcontrib.bibtex",
     "sphinxext.opengraph",
-    #"sphinxext.rediraffe",
 ]
 
 exclude_patterns = [
@@ -24,9 +23,43 @@ exclude_patterns = [
 
 html_extra_path = []
 
+# HTML 
 
-# Panels config
-panels_add_bootstrap_css = False
+
+html_theme = "pydata_sphinx_theme"
+
+html_theme_options = {
+    "search_bar_text": "Search this site...",
+    "analytics": {"google_analytics_id": "UA-88310237-1"},
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/iacopoff/",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/iacopoff",
+            "icon": "fa-brands fa-twitter",
+        },
+    ],
+}
+
+
+html_favicon = "_static/profile-color-circle-small.png"
+html_title = "Iacopo Ferrario"
+html_static_path = ["_static"]
+html_sidebars = {
+    #"index": ["hello.html"],
+    #"about": ["hello.html"],
+    #"publications": ["hello.html"],
+    #"projects": ["hello.html"],
+    #"talks": ["hello.html"],
+    "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
+    "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
+}
+
+
 
 # -- ABlog ---------------------------------------------------
 
@@ -61,4 +94,5 @@ nb_execution_mode = "off"
 
 
 
-
+def setup(app):
+    app.add_css_file("custom.css")
