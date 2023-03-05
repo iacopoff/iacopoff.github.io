@@ -2,6 +2,7 @@
 
 extensions = [
     "myst_nb",
+    "myst_parser",
     "ablog",
     "sphinx_panels",
     "sphinx_design",
