@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://iacopoff.github.io/</id>
   <title>Iacopo</title>
-  <updated>2023-03-05T11:52:01.072217+00:00</updated>
+  <updated>2023-03-05T12:20:34.511589+00:00</updated>
   <link href="https://iacopoff.github.io/"/>
-  <link href="https://iacopoff.github.io/notes/atom.xml" rel="self"/>
+  <link href="https://iacopoff.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <subtitle>Open communities, open science, communication, and data.</subtitle>
 </feed>
