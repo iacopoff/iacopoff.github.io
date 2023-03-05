@@ -29,8 +29,8 @@ panels_add_bootstrap_css = False
 
 # -- ABlog ---------------------------------------------------
 
-blog_baseurl = "https://chrisholdgraf.com"
-blog_title = "Chris Holdgraf"
+blog_baseurl = "https://iacopoff.github.io/"
+blog_title = "Iacopo"
 blog_path = "notes"
 blog_post_pattern = "notes/*/*"
 blog_feed_fulltext = True
