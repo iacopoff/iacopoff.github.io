@@ -102,6 +102,7 @@ myst_enable_extensions = [
 # Don't execute anything by default because many old posts don't execute anymore
 # and this slows down build times.
 # Instead if I want something to execute, manually set it in the post's metadata.
+nbsphinx_kernel_name = 'python3'
 #nb_execution_mode = "off"
 
 
