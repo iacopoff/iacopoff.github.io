@@ -102,7 +102,7 @@ myst_enable_extensions = [
 # Don't execute anything by default because many old posts don't execute anymore
 # and this slows down build times.
 # Instead if I want something to execute, manually set it in the post's metadata.
-nb_execution_mode = "off"
+#nb_execution_mode = "off"
 
 
 
