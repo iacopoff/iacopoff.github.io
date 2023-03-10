@@ -26,6 +26,12 @@ html_extra_path = []
 # HTML 
 
 templates_path = ["_templates"]
+
+
+html_css_files = [
+    'user.css',
+]
+
 html_theme = "pydata_sphinx_theme"
 
 html_theme_options = {
