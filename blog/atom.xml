@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://iacopoff.github.io</id>
   <title>Iacopo's notes</title>
-  <updated>2023-03-10T12:12:29.234747+00:00</updated>
+  <updated>2023-06-12T19:21:55.707180+00:00</updated>
   <link href="https://iacopoff.github.io"/>
   <link href="https://iacopoff.github.io/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
   <subtitle>Open communities, open science, communication, and data.</subtitle>
   <entry>
-    <id>https://iacopoff.github.io/blog/2023/new.html</id>
-    <title>Another article</title>
-    <updated>2023-01-01T00:00:00+00:00</updated>
-    <content type="html">&lt;section id="another-article"&gt;
+    <id>https://iacopoff.github.io/blog/2023/glossary.html</id>
+    <title>Earth Observation glossary</title>
+    <updated>2023-06-01T00:00:00+00:00</updated>
+    <content type="html">&lt;section id="earth-observation-glossary"&gt;
 
 &lt;section id="interesting"&gt;
 &lt;h2&gt;interesting&lt;/h2&gt;
 &lt;/section&gt;
 &lt;/section&gt;
 </content>
-    <link href="https://iacopoff.github.io/blog/2023/new.html" rel="alternate"/>
-    <category term="test" label="test"/>
-    <published>2023-01-01T00:00:00+00:00</published>
+    <link href="https://iacopoff.github.io/blog/2023/glossary.html" rel="alternate"/>
+    <category term="EOglossary" label="EO glossary"/>
+    <published>2023-06-01T00:00:00+00:00</published>
   </entry>
 </feed>
