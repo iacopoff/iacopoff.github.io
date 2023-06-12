@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://iacopoff.github.io</id>
   <title>Iacopo's notes</title>
-  <updated>2023-06-12T19:40:44.659088+00:00</updated>
+  <updated>2023-06-12T19:46:33.285645+00:00</updated>
   <link href="https://iacopoff.github.io"/>
   <link href="https://iacopoff.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
@@ -13,12 +13,32 @@
     <updated>2023-06-01T00:00:00+00:00</updated>
     <content type="html">&lt;section id="earth-observation-glossary"&gt;
 
-&lt;section id="interesting"&gt;
-&lt;h2&gt;interesting&lt;/h2&gt;
+&lt;section id="time"&gt;
+&lt;h2&gt;Time&lt;/h2&gt;
+&lt;section id="temporal-resolution"&gt;
+&lt;h3&gt;temporal resolution&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="timeliness"&gt;
+&lt;h3&gt;timeliness&lt;/h3&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="space"&gt;
+&lt;h2&gt;Space&lt;/h2&gt;
+&lt;section id="spatial-resolution"&gt;
+&lt;h3&gt;spatial resolution&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="spatial-reporting-unit"&gt;
+&lt;h3&gt;spatial reporting unit&lt;/h3&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="uncertainty"&gt;
+&lt;h2&gt;Uncertainty&lt;/h2&gt;
+&lt;p&gt;source: &lt;a class="reference external" href="https://www.bipm.org/documents/20126/54295284/VIM4_CD_210111c.pdf/a57419b7-790f-2cca-f7c9-25d54d049bf6"&gt;International Vocabulary of Metrology&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;/section&gt;
 </content>
     <link href="https://iacopoff.github.io/blog/2023/glossary.html" rel="alternate"/>
+    <summary>source: International Vocabulary of Metrology</summary>
     <category term="EOglossary" label="EO glossary"/>
     <published>2023-06-01T00:00:00+00:00</published>
   </entry>
