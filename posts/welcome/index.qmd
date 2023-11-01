@@ -1,0 +1,23 @@
+---
+title: "Welcome To My Blog"
+author: "Tristan O'Malley"
+date: "2023-10-29"
+date-modified: "2023-10-31"
+categories: [news]
+toc: true
+toc-title: "Table of contents"
+toc-location: left
+#draft: true
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+# bla 2
+
+## bla 22
+
+# bla 1

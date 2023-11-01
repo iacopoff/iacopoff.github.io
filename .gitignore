@@ -7,3 +7,5 @@ _build
 .nox
 .idea/
 .venv/
+
+/.quarto/
