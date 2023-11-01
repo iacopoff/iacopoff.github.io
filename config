@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/iacopoff/iacopoff.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/heads/gh-pages:refs/remotes/origin/gh-pages
+	fetch = +refs/heads/gh-pages:refs/remotes/origin/gh-pages
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[pull]
+	rebase = true
+[branch "gh-pages"]
+	remote = origin
+	merge = refs/heads/gh-pages
